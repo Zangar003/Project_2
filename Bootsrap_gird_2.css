@@ -1,0 +1,166 @@
+/*Galaxy S5*/
+body{
+	background-image: url("https://thumbs.dreamstime.com/z/famous-landmarks-world-grouped-together-hand-drawn-effect-72008144.jpg");
+	
+}
+*{
+	box-sizing: border-box;
+}
+div.all_color #covid{
+	text-align: center;
+	font-family:  sans-serif;
+	font-size: 50px;
+}
+div.all_color #par{
+	text-align: center;
+	font-family:  sans-serif;
+	font-size: 20px;
+}
+.all_color span.color{
+	color:#00FF00;
+}
+.all_color span.color2{
+	color: #00FFFF;
+}
+div.contaner .col span.color3{
+	color: #FF0000;
+}
+div.all_classes{
+	background:#B0C4DE;
+	padding: 30px 20px 30px 20px;
+	margin: 50px 0px 50px 0px;
+			
+}
+
+.all_classes div.contaner .row .col{
+			
+	margin: 10px;
+	border: 0px solid black;
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
+}
+div.contaner  .row img{
+	width: 100%;
+	height: 250px;
+	
+}
+div.contaner  .row p{
+	width: 300px;
+	padding-left: 15px;
+}
+div.contaner  .row h3{
+	
+	padding: 15px;
+}
+div.contaner  .row button{
+	padding: 10px;
+	font-size: 20px;
+}
+/*---*/
+div.flex-contaner2{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+div.flex-contaner2 .first{
+	
+	
+	border: 1px solid black;
+	margin: 20px;
+	width: 350px;
+	height: 320px;
+	background-color: #f5fbff;
+}
+div.flex-contaner2 .first img{
+	width: 100px;
+	height: 100px;
+	padding-left: 15px;
+}
+div.flex-contaner2 .first  p{
+	width: 200px;
+	padding-left: 15px;
+}
+div.flex-contaner2 .first  h1{
+	padding-left: 15px;
+
+}
+div.flex-contaner2 .first button{
+	margin-left: 15px;
+
+	
+}
+@media screen and (max-width: 364px) {
+	*{
+		box-sizing: border-box;
+
+	}
+	div.all_color #covid{
+		text-align: center;
+		font-size: 20px;
+		
+			
+	}
+	div.all_color #par{
+		font-size: 15px;
+		width: 100%;
+
+
+	}
+	/*----*/
+	
+		
+	div.contaner .col img{
+		height: 150px;
+	
+	}
+	div.contaner  .col p{
+		width: 200px;
+		padding-left: 15px;
+		font-size: 10px;
+	}
+	div.contaner  .col h3{
+	
+		padding: 15px;
+		font-size: 15px;
+	}
+	div.contaner  .col button{
+		padding: 10px;
+		font-size: 10px;
+	}
+	/*---*/
+	div.flex-contaner2{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		
+	}
+
+
+	div.flex-contaner2 .first{
+	
+		
+		border: 1px solid black;
+		margin: 10px;
+		width: 350px;
+		height: 250px;
+		background-color: #f5fbff;
+	}
+	div.flex-contaner2 .first img{
+		width: 50px;
+		height: 40px;
+	
+	}
+	div.flex-contaner2 .first  p{
+		width: 180px;
+		font-size: 17px;
+	}	
+	div.flex-contaner2 .first  h1{
+
+		font-size: 18px;
+	}
+	div.flex-contaner2 .first button{
+		font-size: 10px;
+	}
+}
